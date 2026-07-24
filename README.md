@@ -57,19 +57,19 @@ A feature-rich command-line messaging platform implemented in C++ showcasing cor
 ​### Building the Executable
   - Compile all header and source files into a single binary:
   ```bash
-  # Compile using Gcc
+  Compile using Gcc:
   g++ main.cpp -o messenger
 
-  # Run executable (Linux/macOS)
+  Run executable (Linux/macOS):
   ./messenger
 
-  # Run executable (Windows)
+  Run executable (Windows):
   messenger.exe
   ```
 
 ---
 
 ## Future Enhancements & Roadmap
-​  - [ ] Transition hardcoded users to file-based / database storage.
-​  - [ ] Implement smart pointers (std::shared_ptr / std::unique_ptr) for safer memory management.
-​  - [ ] Add real-time network sockets for multi-threaded multi-client communication.
+​  - Transition hardcoded users to file-based / database storage.
+​  - Implement smart pointers (std::shared_ptr / std::unique_ptr) for safer memory management.
+​  - Add real-time network sockets for multi-threaded multi-client communication.
